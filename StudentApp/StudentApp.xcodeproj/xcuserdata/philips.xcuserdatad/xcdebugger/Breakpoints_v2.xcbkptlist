@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StudentAppUITests/StudentDataEntryForm.swift"
+            timestampString = "532703763.519806"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "StudentDataEntryForm"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StudentAppUITests/StudentDataEntryForm.swift"
+            timestampString = "532705416.669957"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "setUp()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StudentAppUITests/StudentFormUITests.swift"
+            timestampString = "532705654.565268"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "StudentFormUITests"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StudentAppUITests.StudentFormUITests.__deallocating_deinit"
+                  moduleName = "StudentAppUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/philips/TDD_iOS/StudentApp/StudentAppUITests/StudentFormUITests.swift"
+                  timestampString = "532772627.073967"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StudentAppUITests.StudentFormUITests.init (invocation : Swift.Optional&lt;__ObjC.NSInvocation&gt;) -&gt; StudentAppUITests.StudentFormUITests"
+                  moduleName = "StudentAppUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/philips/TDD_iOS/StudentApp/StudentAppUITests/StudentFormUITests.swift"
+                  timestampString = "532772627.075724"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StudentAppUITests.StudentFormUITests.__allocating_init (invocation : Swift.Optional&lt;__ObjC.NSInvocation&gt;) -&gt; StudentAppUITests.StudentFormUITests"
+                  moduleName = "StudentAppUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/philips/TDD_iOS/StudentApp/StudentAppUITests/StudentFormUITests.swift"
+                  timestampString = "532772627.078399"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StudentAppUITests.StudentFormUITests.init (selector : ObjectiveC.Selector) -&gt; StudentAppUITests.StudentFormUITests"
+                  moduleName = "StudentAppUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/philips/TDD_iOS/StudentApp/StudentAppUITests/StudentFormUITests.swift"
+                  timestampString = "532772627.081261"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StudentAppUITests.StudentFormUITests.__allocating_init (selector : ObjectiveC.Selector) -&gt; StudentAppUITests.StudentFormUITests"
+                  moduleName = "StudentAppUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/philips/TDD_iOS/StudentApp/StudentAppUITests/StudentFormUITests.swift"
+                  timestampString = "532772627.084842"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StudentAppUITests.StudentFormUITests.init () -&gt; StudentAppUITests.StudentFormUITests"
+                  moduleName = "StudentAppUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/philips/TDD_iOS/StudentApp/StudentAppUITests/StudentFormUITests.swift"
+                  timestampString = "532772627.088151"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StudentAppUITests.StudentFormUITests.__allocating_init () -&gt; StudentAppUITests.StudentFormUITests"
+                  moduleName = "StudentAppUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/philips/TDD_iOS/StudentApp/StudentAppUITests/StudentFormUITests.swift"
+                  timestampString = "532772627.091362"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

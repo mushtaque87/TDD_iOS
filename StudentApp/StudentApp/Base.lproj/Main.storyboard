@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="psj-SQ-Pib">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="StudentApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Student Form View Controller-->
+        <scene sceneID="yUj-ze-72B">
+            <objects>
+                <viewController storyboardIdentifier="StudentForm" id="psj-SQ-Pib" customClass="StudentForm_ViewController" customModule="StudentApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="j8P-Tm-gv2"/>
+                        <viewControllerLayoutGuide type="bottom" id="dkS-yJ-o3G"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3n4-C0-5in">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Roll" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kbR-XR-3lQ">
+                                <rect key="frame" x="46" y="40" width="288" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tDs-D7-hz3">
+                                <rect key="frame" x="46" y="88" width="288" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Grade" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nxD-j8-te8">
+                                <rect key="frame" x="46" y="134" width="288" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Gender" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e3n-Mt-KRN">
+                                <rect key="frame" x="46" y="181" width="288" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SWU-5g-kJc">
+                                <rect key="frame" x="167" y="263" width="40" height="30"/>
+                                <state key="normal" title="Insert"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="kbR-XR-3lQ" firstAttribute="trailing" secondItem="tDs-D7-hz3" secondAttribute="trailing" id="1Ft-Fr-QVS"/>
+                            <constraint firstItem="SWU-5g-kJc" firstAttribute="top" secondItem="e3n-Mt-KRN" secondAttribute="bottom" constant="52" id="6C0-oQ-gKt"/>
+                            <constraint firstItem="kbR-XR-3lQ" firstAttribute="leading" secondItem="tDs-D7-hz3" secondAttribute="leading" id="CUm-qt-WYs"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="kbR-XR-3lQ" secondAttribute="trailing" constant="25" id="Lrs-kj-Fu2"/>
+                            <constraint firstItem="kbR-XR-3lQ" firstAttribute="leading" secondItem="nxD-j8-te8" secondAttribute="leading" id="Pf4-VL-WxW"/>
+                            <constraint firstItem="e3n-Mt-KRN" firstAttribute="top" secondItem="3n4-C0-5in" secondAttribute="top" constant="181" id="QQX-B3-PsL"/>
+                            <constraint firstItem="kbR-XR-3lQ" firstAttribute="trailing" secondItem="e3n-Mt-KRN" secondAttribute="trailing" id="TUS-6P-Buf"/>
+                            <constraint firstItem="kbR-XR-3lQ" firstAttribute="leading" secondItem="3n4-C0-5in" secondAttribute="leadingMargin" constant="30" id="b0j-X4-0Rk"/>
+                            <constraint firstItem="kbR-XR-3lQ" firstAttribute="trailing" secondItem="nxD-j8-te8" secondAttribute="trailing" id="hlb-7U-EaD"/>
+                            <constraint firstItem="kbR-XR-3lQ" firstAttribute="top" secondItem="j8P-Tm-gv2" secondAttribute="bottom" constant="20" id="nuK-lb-beO"/>
+                            <constraint firstItem="SWU-5g-kJc" firstAttribute="centerX" secondItem="3n4-C0-5in" secondAttribute="centerX" id="oD4-WE-vTg"/>
+                            <constraint firstItem="kbR-XR-3lQ" firstAttribute="leading" secondItem="e3n-Mt-KRN" secondAttribute="leading" id="oSB-Lx-gTt"/>
+                            <constraint firstItem="e3n-Mt-KRN" firstAttribute="top" secondItem="nxD-j8-te8" secondAttribute="bottom" constant="17" id="wQ5-qa-7tO"/>
+                            <constraint firstItem="tDs-D7-hz3" firstAttribute="top" secondItem="kbR-XR-3lQ" secondAttribute="bottom" constant="18" id="xqi-Bi-U4z"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="genderfield" destination="e3n-Mt-KRN" id="LIB-hT-JFH"/>
+                        <outlet property="gradefield" destination="nxD-j8-te8" id="JdO-B6-HNS"/>
+                        <outlet property="namefield" destination="kbR-XR-3lQ" id="Db4-Cc-n0s"/>
+                        <outlet property="rollfield" destination="kbR-XR-3lQ" id="Np5-JJ-h9e"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qHn-t4-9iq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="792.95352323838085"/>
+        </scene>
+    </scenes>
+</document>
